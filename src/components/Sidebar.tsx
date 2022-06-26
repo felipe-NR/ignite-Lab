@@ -1,5 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import { Lesson } from "./Lesson";
+
 export function Sidebar() {
     const {data} = useQuery<Sidebar.GetLessonsQueryResponse>(GET_LESSONS_QUERY)
     return(
