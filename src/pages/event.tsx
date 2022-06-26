@@ -6,11 +6,12 @@ import { Video } from "../components/Video"
 
 export function Event() {
   return(
-    <>
-      <Header></Header>
-      <Sidebar></Sidebar>
-      <Video></Video>
-      <Lesson></Lesson>
-    </>
+    <div className="flex flex-col min-h-screen">
+      <Header/>
+      <main className="flex flex-1">
+        <Video/>
+        <Sidebar/>
+      </main>
+    </div>
   )
 }
