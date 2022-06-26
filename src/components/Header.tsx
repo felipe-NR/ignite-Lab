@@ -3,6 +3,6 @@ import { Logo } from "./Logo";
 
 export function Header(): React.ReactElement {
     return (
-        <Logo isDesktop={true}/>        
+        <Logo />        
     )
 }

@@ -4,7 +4,11 @@ module.exports = {
     './src/**/*.tsx'
   ],
   theme: {
-    extend: {      
+    extend: {
+      backgroundImage: {
+        blur: 'url(src/assets/blur-background.png)'
+        
+      },
       colors: {
         green: {
           300: '#00B37E',
